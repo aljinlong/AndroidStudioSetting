@@ -1,0 +1,97 @@
+<templateSet group="html/xml">
+  <template name="tt" value="&lt;TextView&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:text=&quot;文本显示&quot;&#10;        android:id=&quot;@+id/tv_$bt$&quot;/&gt;&#10; " toReformat="false" toShortenFQNames="true">
+    <variable name="bt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="i" value="&lt;ImageButton&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:src=&quot;@drawable/&quot;&#10;        android:id=&quot;@+id/ib_$imageb$&quot;&#10;        /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="imageb" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="b" value="&lt;Button&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:text=&quot;按钮&quot;&#10;        android:id=&quot;@+id/bt_$bt$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="bt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="ll" value=" &lt;LinearLayout&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:orientation=&quot;$heh$&quot;&#10;        android:id=&quot;@+id/ll_$imageb$&quot; &gt;&#10;        &#10;    &lt;/LinearLayout&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="heh" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="imageb" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="f" value=" &lt;FrameLayout&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:id=&quot;@+id/fl_$imageb$&quot; &gt;&#10;        &#10;    &lt;/FrameLayout&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="imageb" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="e" value="&lt;EditText&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:text=&quot;按钮&quot;&#10;        android:id=&quot;@+id/et_$bt$&quot;/&gt;&#10; " toReformat="false" toShortenFQNames="true">
+    <variable name="bt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="ii" value="&lt;ImageView&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:id=&quot;@+id/iv_$imageb$&quot;&#10;    android:background=&quot;@drawable/$hhe$&quot;&#10;    &#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="imageb" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="hhe" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="&lt;item name=&quot;$name$&quot;&gt;$value$&lt;/item&gt;" description="item" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,44 @@
+<templateSet group="AndroidLog">
+  <template name="g" value="LogManager.getLogger().i(&quot;hello %s&quot;, &quot;$world$&quot;);" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="world" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="gg" value="LogManager.getLogger().i(&quot;hello %s%s&quot;, &quot;$world$&quot;,&quot;$world$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="world" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="ggg" value="LogManager.getLogger().i(&quot;hello %s%s%s&quot;, &quot;$world$&quot;,&quot;$world$&quot;,&quot;$world$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="world" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="gggg" value="LogManager.getLogger().i(&quot;hello %s%s%s%s&quot;, &quot;$world$&quot;,&quot;$world$&quot;,&quot;$world$&quot;,&quot;$world$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="world" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>

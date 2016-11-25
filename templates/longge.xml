@@ -1,0 +1,291 @@
+<templateSet group="longge">
+  <template name="ss" value="switch ($biao$) {&#10;&#9;&#9;case :&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;break;&#10;&#10;&#9;&#9;default:&#10;&#9;&#9;&#9;break;&#10;&#9;&#9;}" description="switch循环" toReformat="false" toShortenFQNames="true">
+    <variable name="biao" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="zz" value="/**&#10; * $desc$&#10; * @author longge125521&#10; * create by$data$ $time$&#10; */" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="data" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="zi" value="new Thread() {&#10;    public void run() {&#10;        $zi$&#10;    }&#10;}.start();" description="开启子线程" toReformat="false" toShortenFQNames="true">
+    <variable name="zi" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="fu" value="public class $lei$ extends Service {&#10;&#9;&#10;&#10;&#9;@Override&#10;&#9;public IBinder onBind(Intent intent) {&#10;&#9;&#9;return iBinder;&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public void onCreate() {&#10;&#10;&#9;&#9;super.onCreate();&#10;&#9;}&#10;&#9;@Override&#10;&#9;public void onDestroy() {&#10;&#9;&#9;super.onDestroy();&#10;&#9;&#9;&#10;&#9;}&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="lei" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="bo" value="import android.content.BroadcastReceiver;&#10;import android.content.Context;&#10;import android.content.Intent;&#10;&#10;public class $jie$ extends BroadcastReceiver {&#10;   &#10;    @Override&#10;    public void onReceive(Context context, Intent intent) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="jie" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="huo" value="import android.app.Activity;&#10;import android.os.Bundle;&#10;&#10;public class $huo$ extends Activity {&#10;&#10;    @Override&#10;    protected void onCreate(Bundle savedInstanceState) {&#10;        super.onCreate(savedInstanceState);&#10;        setContentView(R.layout.activity_main3);&#10;    }&#10;&#10;    @Override&#10;    protected void onDestroy() {&#10;        super.onDestroy();&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="huo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="q" value="classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="w" value="apply plugin: 'com.neenbedankt.android-apt'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="e" value="compile 'com.jakewharton:butterknife:8.0.1'  &#10;apt 'com.jakewharton:butterknife-compiler:8.0.1' " toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="nei" value="import android.content.ContentProvider;&#10;import android.content.ContentValues;&#10;import android.database.Cursor;&#10;import android.net.Uri;&#10;&#10;public class $nei$ extends ContentProvider {&#10;    &#10;    @Override&#10;    public boolean onCreate() {&#10;        return true;&#10;    }&#10;    @Override&#10;&#10;    public int delete(Uri uri, String selection, String[] selectionArgs) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;&#10;    @Override&#10;    public String getType(Uri uri) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;&#10;    @Override&#10;    public Uri insert(Uri uri, ContentValues values) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;&#10;   &#10;&#10;    @Override&#10;    public Cursor query(Uri uri, String[] projection, String selection,&#10;                        String[] selectionArgs, String sortOrder) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;&#10;    @Override&#10;    public int update(Uri uri, ContentValues values, String selection,&#10;                      String[] selectionArgs) {&#10;        throw new UnsupportedOperationException(&quot;Not yet implemented&quot;);&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="nei" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="da" value="System.out.println(&quot;------$da$------&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="da" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="fa" value="public void $fa$() {&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="fa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="lei" value="public class $le${&#10;    &#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="le" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="xiao" value="private Handler handler = new Handler() {&#10;    public void handleMessage(Message msg) {&#10;        switch (msg.what) {&#10;            case $xiao$:&#10;&#10;            break;&#10;        }&#10;    }&#10;};" description="消息private Handler handler = new Handler()" toReformat="false" toShortenFQNames="true">
+    <variable name="xiao" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="pw" value="// 创建PopupWindow&#10;View contentView = createContentView();&#9;// 指定PopupWindow要显示的内容&#10;int width = 4;&#9;// 指定PopupWindow的宽&#10;int height = 300;&#9;&#9;&#9;// 指定PopupWindow的高&#10;boolean focusable = true;&#9;// 指定PopupWindow是否可以获取焦点&#10;popupWindow = new PopupWindow(contentView, width, height, focusable);&#10;popupWindow.setBackgroundDrawable(new ColorDrawable());" description="创建PopupWindow" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="lv" value="public class $ada$Adapter extends BaseAdapter {&#10;&#9;&#10;&#9;private ArrayList&lt;String&gt; list = new ArrayList&lt;String&gt;();&#10;&#9;&#10;&#9;// 构造代码块&#10;&#9;{&#10;&#9;&#9;for (int i = 0; i &lt; 30; i++) {&#10;&#9;&#9;&#9;list.add((100000 + i) + &quot;&quot;);&#10;&#9;&#9;}&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public int getCount() {&#10;&#9;&#9;return list.size();&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public Object getItem(int position) {&#10;&#9;&#9;return list.get(position);&#10;&#9;}&#10;&#10;&#9;@Override&#10;&#9;public long getItemId(int position) {&#10;&#9;&#9;return position;&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * @param parent ListView对象&#10;&#9; */&#10;&#9;@Override&#10;&#9;public View getView(final int position, View convertView, ViewGroup parent) {&#10;&#9;&#9;ViewHolder holder;&#10;&#9;&#9;if (convertView == null) {&#10;&#9;&#9;&#9;convertView = View.inflate(parent.getContext(), R.layout.item_number_list, null);&#10;&#9;&#9;&#9;holder = new ViewHolder();&#10;&#9;&#9;&#9;holder.tv_number = (TextView) convertView.findViewById(R.id.tv_number);&#10;&#9;&#9;&#9;holder.ib_del = (ImageButton) convertView.findViewById(R.id.ib_del);&#10;&#9;&#9;&#9;convertView.setTag(holder);&#10;&#9;&#9;} else {&#10;&#9;&#9;&#9;holder = (ViewHolder) convertView.getTag();&#10;&#9;&#9;}&#10;&#9;&#9;&#10;&#9;&#9;holder.tv_number.setText(list.get(position));&#10;&#9;&#9;&#10;&#9;&#9;holder.ib_del.setOnClickListener(new OnClickListener() {&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;@Override&#10;&#9;&#9;&#9;public void onClick(View v) {&#10;&#9;&#9;&#9;&#9;list.remove(position);&#10;&#9;&#9;&#9;&#9;notifyDataSetChanged();&#9;// 通知刷新Ui&#10;&#9;&#9;&#9;}&#10;&#9;&#9;});&#10;&#9;&#9;&#10;&#9;&#9;return convertView;&#10;&#9;}&#10;&#9;&#10;&#9;static class ViewHolder {&#10;&#9;&#9;TextView tv_number;&#10;&#9;&#9;ImageButton ib_del;&#10;&#9;}&#10;&#10;}&#10;" description="BaseAdapter" toReformat="false" toShortenFQNames="true">
+    <variable name="ada" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="vp" value="public class BannerAdapter extends PagerAdapter {&#10;&#10;&#9;private int[] imageResIds;&#10;&#9;&#10;&#9;public BannerAdapter(int[] imageResIds) {&#10;&#9;&#9;this.imageResIds = imageResIds;&#10;&#9;}&#10;&#10;&#9;/** 返回有多少页 */&#10;&#9;@Override&#10;&#9;public int getCount() {&#10;&#9;&#9;return imageResIds.length * 10000 * 100;&#9;// 返回一个这么大的值是为了实现无限循环&#10;&#9;}&#10;&#10;&#9;/** 用于判断ViewPager是否可以展示 */&#10;&#9;@Override&#10;&#9;public boolean isViewFromObject(View view, Object object) {&#10;&#9;&#9;return view == object;&#9;// 固定写法&#10;&#9;}&#10;&#9;&#10;&#9;/**&#10;&#9; * 跟ListView中的Adpater中的getView方法类似，用于创建一个Item&#10;&#9; * @param container ViewPager&#10;&#9; * @param position 要生成item的位置&#10;&#9; */&#10;&#9;@Override&#10;&#9;public Object instantiateItem(ViewGroup container, int position) {&#10;&#9;&#9;ImageView imageView = new ImageView(container.getContext());&#10;&#9;&#9;position = position % imageResIds.length;&#10;&#9;&#9;imageView.setBackgroundResource(imageResIds[position]);&#10;&#9;&#9;container.addView(imageView);&#9;// 把一个item添加到ViewPager容器&#10;&#9;&#9;return imageView;&#10;&#9;}&#10;&#9;&#10;&#9;/**&#10;&#9; * 销毁一个Item&#10;&#9; * @param container ViewPager&#10;&#9; * @param position 要销毁item的位置&#10;&#9; * @param object instantiateItem方法的返回值&#10;&#9; */&#10;&#9;@Override&#10;&#9;public void destroyItem(ViewGroup container, int position, Object object) {&#10;&#9;&#9;container.removeView((ImageView) object);&#10;&#9;}&#10;&#10;}" description="viewpage" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="z" value="/**$zhushi$*/" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="zhushi" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+    </context>
+  </template>
+  <template name="tc" value="public boolean onTouchEvent(MotionEvent ev){&#10;    switch (ev.getAction()) {&#10;        case MotionEvent.ACTION_DOWN:&#10;&#10;            break;&#10;&#10;        case MotionEvent.ACTION_MOVE:&#10;            $move$&#10;            break;&#10;&#10;        case MotionEvent.ACTION_UP:&#10;&#10;            break;&#10;&#10;        return super.onTouchEvent(ev);&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="move" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="vdh" value="// forParent 父类的容器&#10;// sensitivity 敏感度, 越大越敏感.1.0f是默认值&#10;// Callback 事件回调&#10;// 1. 创建 ViewDragHelper 辅助类&#10;mHelper = ViewDragHelper.create(this, 1.0f, callback);&#10;}&#10;&#10;/**    2. 转交触摸事件交给自己自己&#10; * @param ev&#10; * @return&#10; */&#10;public boolean onInterceptTouchEvent(android.view.MotionEvent ev) {&#10;    // 由 ViewDragHelper 判断触摸事件是否该拦截&#10;    return mHelper.shouldInterceptTouchEvent(ev);&#10;};&#10;// 3. 接受处理的结果.&#10;ViewDragHelper.Callback callback = new ViewDragHelper.Callback() {&#10;&#10;&#10;&#10;&#10;    /**1. 返回值, 决定了child是否可以被拖拽 一次拖拽只执行一次&#10;     * @param child 被用户拖拽的子View&#10;     * @param pointerId 多点触摸的手指id&#10;     * @return&#10;     */&#10;    @Override&#10;    public boolean tryCaptureView(View child, int pointerId) {&#10;        return true;&#10;    }&#10;&#10;    /**2. 返回拖拽的范围. 返回一个 &gt;0 的值, 决定了动画的执行时长, 水平方向是否可以被滑开&#10;     * @param child&#10;     * @return&#10;     */&#10;    @Override&#10;    public int getViewHorizontalDragRange(View child) {&#10;        return mRange;&#10;    }&#10;    /**3.修正子View水平方向的位置. 此时还没有发生真正的移动.返回值决定了View将会移动到的位置&#10;     * @param child 被拖拽的子View&#10;     * @param left  建议移动到的位置&#10;     * @param dx dx跟旧的位置的差值&#10;     * @return&#10;     */&#10;    @Override&#10;    public int clampViewPositionHorizontal(View child, int left, int dx) {&#10;        if (child == mMainContent) {&#10;            fixLeft(left);&#10;&#10;        }&#10;&#10;        return left;&#10;    }&#10;    /**4. 当控件位置变化时 调用, 可以做 : 伴随动画, 状态的更新, 事件的回调.&#10;     * @param changedView&#10;     * @param left&#10;     * @param top&#10;     * @param dx&#10;     * @param dy&#10;     */&#10;    @Override&#10;    public void onViewPositionChanged(View changedView, int left, int top, int dx, int dy) {&#10;        if (changedView == mLeftContent) {&#10;            // 如果移动的是左面板&#10;            // 1. 放回原来的位置&#10;            mLeftContent.layout(0, 0, 0 + mWidth, 0 + mHeight);&#10;            // 2. 把左面板发生的变化量dx转递给主面板&#10;            int newLeft = mMainContent.getLeft() + dx;&#10;&#10;            // 修正左边值.&#10;            newLeft = fixLeft(newLeft);&#10;            mMainContent.layout(newLeft, 0, newLeft + mWidth, 0 + mHeight);&#10;        }&#10;        invalidate();&#10;    }&#10;&#10;&#10;    /**5. 决定了松手之后要做的事情, 结束的动画&#10;     * @param releasedChild    releasedChild 被释放的孩子&#10;     * @param xvel   水平方向的速度 向右为+,  向左为-&#10;     * @param yvel&#10;     */&#10;    @Override&#10;    public void onViewReleased(View releasedChild, float xvel, float yvel) {&#10;        if (xvel == 0 &amp;&amp; mMainContent.getLeft() &gt; mRange * 0.5f) {&#10;            // open();&#10;        } else if (xvel &gt; 0) {&#10;            //open();&#10;        } else {&#10;            //close();&#10;        }&#10;    }&#10;&#10;&#10;&#10;&#10;&#10;&#10;};" description="ViewDragHelper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="xz" value="/**&#10; * 修正位置&#10; * @param left&#10; * @return&#10; */&#10;private int fixLeft(int left) {&#10;    if (left &lt; 0) {&#10;        return 0;&#10;    } else if (left &gt; mRange) {&#10;        return mRange;&#10;    }&#10;    return left;&#10;}" description="leftRange" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="cq" value="View view = View.inflate(mActivity, R.layout.$cq$,null);" toReformat="false" toShortenFQNames="true">
+    <variable name="cq" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="fas" value="private void $fa$() {&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="fa" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="r" value="R.layout." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="// TODO: $time$ " toReformat="false" toShortenFQNames="true">
+    <variable name="time" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>
