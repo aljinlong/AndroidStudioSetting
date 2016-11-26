@@ -1,0 +1,55 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" timestamp="1480147536527">
+        <mark key="'" line="36" column="0" />
+      </file>
+      <file name="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/utils/EncodeUtils.java" timestamp="1480148752534">
+        <mark key="[" line="9" column="25" />
+      </file>
+      <file name="/fragment.java" timestamp="1480148717158">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="37" column="51" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+      <jump line="138" column="4" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+      <jump line="174" column="4" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+      <jump line="221" column="4" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+      <jump line="262" column="4" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+      <jump line="36" column="0" filename="D:/working/day02/jiebai/app/src/main/java/com/intime/yinbai/ui/activities/LoginActivity.java" />
+    </jumps>
+    <registers>
+      <register name="/" type="4">
+        <text encoding="base64">XDxwdWJsaWNcPg==</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxwdWJsaWNcPg==</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxwdWJsaWNcPg==</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDwweDAwNTVcPg==</entry>
+        <entry encoding="base64">XDx7XD4=</entry>
+        <entry encoding="base64">XDxwdWJsaWNcPg==</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
